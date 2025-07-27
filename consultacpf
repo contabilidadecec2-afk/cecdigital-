@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solução para o seu CPF</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #00295f;
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #154273;
+      padding: 2rem 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .sigla {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 5rem;
+      color: #00ccff;
+      text-shadow: 2px 2px 5px #000000;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 1.6rem;
+      margin: 0;
+      max-width: 700px;
+    }
+    .container {
+      padding: 2rem;
+    }
+    .button {
+      display: inline-block;
+      margin: 1rem;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      color: white;
+      background-color: #006699;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #004466;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="sigla">CPF</div>
+    <h1>SOLUÇÃO PARA O SEU CPF QUE ESTÁ EM PENDÊNCIA DE REGULARIZAÇÃO. AGILIZAMOS JÁ.</h1>
+  </header>
+
+  <div class="container">
+    <a class="button" href="https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp" target="_blank">Consultar Situação do CPF</a>
+    <a class="button" href="https://wa.me/5521979958663?text=Ol%C3%A1%2C+preciso+regularizar+meu+CPF" target="_blank">Falar no WhatsApp</a>
+  </div>
+</body>
+</html>
